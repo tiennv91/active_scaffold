@@ -1,7 +1,8 @@
 PATH
-  remote: ../
+  remote: ..
   specs:
     active_scaffold (3.4.99)
+      cow_proxy (~> 0.1)
       ice_nine (~> 0.11)
       rails (>= 4.0.5)
 
@@ -48,6 +49,7 @@ GEM
       simplecov
     concurrent-ruby (1.0.2)
     concurrent-ruby (1.0.2-java)
+    cow_proxy (0.1.0)
     docile (1.1.5)
     domain_name (0.5.20160826)
       unf (>= 0.0.5, < 1.0.0)
@@ -172,4 +174,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.13.7
+   1.14.6
